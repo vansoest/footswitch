@@ -68,7 +68,9 @@ void usage() {
         "   -x X        - move the mouse cursor horizontally by X pixels\n"
         "   -y Y        - move the mouse cursor vertically by Y pixels\n"
         "   -w W        - move the mouse wheel by W\n\n"
-        "You cannot mix -sSa options with -kmbxyw options for one and the same pedal\n");
+        "You cannot mix -sSa options with -kmbxyw options for one and the same pedal\n\n"
+        "Example:\n"
+        "   footswitch -1 -s \" \" -2 -s p -3 -s \" \"   # map pedal 1 to space, pedal 2 to 'p', pedal 3 to space; then verify with footswitch -r\n");
     exit(1);
 }
 
