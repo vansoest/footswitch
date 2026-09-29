@@ -287,6 +287,7 @@ static const keymap_entry keymap[] =
     {"Shift_R",     0xe5},
     {"Meta_R",      0xe6},
     {"Super_R",     0xe7},
+    {"XF86AudioPlay",        0xe8}, // play/pause toggle, alias
     {"XF86AudioPause",       0xe8},
     {"XF86Eject",            0xe9}, // same as ec?
     {"XF86AudioPrev",        0xea},
