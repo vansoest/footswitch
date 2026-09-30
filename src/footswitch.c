@@ -70,7 +70,8 @@ void usage() {
         "   -w W        - move the mouse wheel by W\n\n"
         "You cannot mix -sSa options with -kmbxyw options for one and the same pedal\n\n"
         "Example:\n"
-        "   footswitch -1 -s \" \" -2 -s p -3 -s \" \"   # map pedal 1 to space, pedal 2 to 'p', pedal 3 to space; then verify with footswitch -r\n");
+        "   footswitch -1 -s \" \" -2 -s p -3 -s \" \"   # map pedal 1 to space, pedal 2 to 'p', pedal 3 to space; then verify with footswitch -r\n"
+        "   footswitch -1 -k XF86AudioPause -2 -s p -3 -k XF86AudioPause   # media key play/pause on pedals 1 and 3, 'p' on pedal 2; verify: footswitch -r\n");
     exit(1);
 }
 
